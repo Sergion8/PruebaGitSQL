@@ -51,7 +51,7 @@ namespace BaseDeDatos
 
                 ListaCliente.DisplayMemberPath = "nombre"; //Campo de la tabla a mostrar
                 ListaCliente.SelectedValuePath = "Id"; 
-                ListaCliente.ItemsSource = clientesTabla.DefaultView;
+                ListaCliente.ItemsSource = clientesTabla.DefaultView; //Tipo de vista
             }
         }
 

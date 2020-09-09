@@ -1,0 +1,15 @@
+﻿<Window x:Class="BaseDeDatos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaseDeDatos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="214,63,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ListBox Name="ListaCliente" HorizontalAlignment="Left" Height="200" Margin="164,135,0,0" VerticalAlignment="Top" Width="183" SelectionChanged="ListaCliente_SelectionChanged"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="506,63,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ListBox x:Name="ListaPedido" HorizontalAlignment="Left" Height="200" Margin="456,135,0,0" VerticalAlignment="Top" Width="183"/>
+    </Grid>
+</Window>
